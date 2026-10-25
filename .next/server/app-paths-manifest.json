@@ -1,0 +1,13 @@
+{
+  "/403/page": "app/403/page.js",
+  "/_global-error/page": "app/_global-error/page.js",
+  "/_not-found/page": "app/_not-found/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/api/auth/[...nextauth]/route": "app/api/auth/[...nextauth]/route.js",
+  "/dashboard/page": "app/dashboard/page.js",
+  "/login/page": "app/login/page.js",
+  "/opengraph-image/route": "app-edge-has-no-entrypoint",
+  "/page": "app/page.js",
+  "/products/opengraph-image/route": "app-edge-has-no-entrypoint",
+  "/products/page": "app/products/page.js"
+}

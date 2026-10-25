@@ -61,7 +61,7 @@ export const ProductCard = memo(function ProductCard({ product, onClick }: Produ
           title={isLiked ? "Bỏ yêu thích" : "Thêm vào yêu thích"}
           aria-label={isLiked ? "Bỏ yêu thích" : "Thêm vào yêu thích"}
         >
-          {isLiked ? "❤️" : "♡"}
+          {isLiked ? "Đã lưu" : "Lưu"}
         </button>
       </div>
 
@@ -69,8 +69,7 @@ export const ProductCard = memo(function ProductCard({ product, onClick }: Produ
         <p className="product-card-brand">{product.brand}</p>
         <h3 className="product-card-name" title={product.name}>{product.name}</h3>
         <div className="product-card-rating">
-          <span className="product-card-stars">{renderStars(product.rating)}</span>
-          <span className="product-card-rating-value">{product.rating}</span>
+          <span className="product-card-rating-value">{product.rating} / 5</span>
         </div>
         <div className="product-card-footer">
           <span className="product-card-price">{formatPrice(product.price)}</span>
@@ -85,7 +84,7 @@ export const ProductCard = memo(function ProductCard({ product, onClick }: Produ
               aria-label="Thêm vào giỏ hàng"
               disabled={product.stock <= 0}
             >
-              🛒
+              Thêm
             </button>
             <button
               className="product-card-btn"

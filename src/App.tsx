@@ -1,4 +1,4 @@
-import { ProductExplorer } from "./pages/ProductExplorer";
+import { ProductExplorer } from "./legacy_pages/ProductExplorer";
 import { ShopProvider } from "./context/ShopContext";
 import "./App.css";
 

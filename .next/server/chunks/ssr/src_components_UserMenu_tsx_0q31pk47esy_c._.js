@@ -1,0 +1,3 @@
+module.exports=[84668,a=>{"use strict";var b=a.i(87924),c=a.i(18402);a.s(["UserMenu",0,function({user:a}){let d=a?.name?a.name.split(" ").map(a=>a[0]).join("").slice(0,2).toUpperCase():(a?.email?.[0]??"?").toUpperCase();return(0,b.jsxs)("div",{className:"user-menu",children:[(0,b.jsx)("div",{className:"user-avatar",title:a?.name??a?.email??"",children:a?.image?(0,b.jsx)("img",{src:a.image,alt:a.name??"Avatar"}):d}),(0,b.jsx)("span",{className:"user-name",children:a?.name??a?.email}),(0,b.jsx)("button",{id:"btn-signout",className:"btn-signout",onClick:()=>(0,c._)({callbackUrl:"/"}),title:"Đăng xuất","aria-label":"Đăng xuất",children:"Đăng xuất"})]})}])}];
+
+//# sourceMappingURL=src_components_UserMenu_tsx_0q31pk47esy_c._.js.map

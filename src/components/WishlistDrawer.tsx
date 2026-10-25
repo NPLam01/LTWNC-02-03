@@ -40,7 +40,6 @@ export function WishlistDrawer() {
       >
         <div className="drawer-header">
           <div className="drawer-title-group">
-            <span className="drawer-header-icon heart-color">❤️</span>
             <h2>Danh sách yêu thích</h2>
             <span className="drawer-badge wishlist-badge-accent">
               {totalWishlistCount} sản phẩm
@@ -57,7 +56,6 @@ export function WishlistDrawer() {
 
         {wishlist.length === 0 ? (
           <div className="drawer-empty-state">
-            <div className="empty-icon heart-color">🤍</div>
             <h3>Chưa có sản phẩm yêu thích</h3>
             <p>
               Nhấn vào biểu tượng trái tim trên bất kỳ sản phẩm nào để lưu lại danh
@@ -81,7 +79,7 @@ export function WishlistDrawer() {
                   className="wishlist-add-all-btn"
                   onClick={addAllWishlistToCart}
                 >
-                  🛒 Thêm tất cả vào giỏ
+                  Thêm tất cả vào giỏ
                 </button>
                 <button
                   className="wishlist-clear-btn"
@@ -139,7 +137,7 @@ export function WishlistDrawer() {
                         onClick={() => addToCart(product, 1)}
                         disabled={product.stock <= 0}
                       >
-                        {product.stock > 0 ? "🛒 Thêm vào giỏ" : "Hết hàng"}
+                        {product.stock > 0 ? "Thêm vào giỏ" : "Hết hàng"}
                       </button>
                     </div>
                   </div>

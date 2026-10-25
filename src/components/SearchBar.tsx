@@ -9,7 +9,6 @@ export function SearchBar({ value, onChange, total, filtered }: SearchBarProps) 
   return (
     <div className="search-bar">
       <div className="search-input-wrapper">
-        <span className="search-icon">🔍</span>
         <input
           id="search-input"
           type="text"

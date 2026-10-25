@@ -1,0 +1,28 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/0umf92h1sb77c.js"
+3:I[39756,["$2"],"default"]
+4:I[37457,["$2"],"default"]
+b:"/_next/static/chunks/2n5qeheznvl4u.js"
+c:I[22016,["$b"],""]
+d:I[97367,["$2"],"OutletBoundary"]
+e:"$Sreact.suspense"
+11:"ViewportBoundary"
+12:I[97367,["$2"],"$11"]
+13:"MetadataBoundary"
+14:I[97367,["$2"],"$13"]
+:HL["/_next/static/chunks/0b55-gtj0uckl.css","style"]
+6:X
+9:X
+9:C
+a:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","div",null,{"className":"error-page","children":[["$","div",null,{"className":"error-code","children":"403"}],["$","h1",null,{"className":"error-title","children":"Không có quyền truy cập"}],["$","p",null,{"className":"error-desc","children":"Bạn không có quyền truy cập trang này. Chỉ quản trị viên mới có thể xem nội dung này."}],["$","div",null,{"style":{"display":"flex","gap":12,"flexWrap":"wrap","justifyContent":"center"},"children":[["$","$Lc",null,{"href":"/dashboard","className":"btn-primary","style":{"width":"auto","padding":"12px 24px"},"children":"← Về Dashboard"}],["$","$Lc",null,{"href":"/","className":"btn-primary","style":{"width":"auto","padding":"12px 24px","background":"rgba(255,255,255,0.1)"},"children":"Trang chủ"}]]}]]}],[["$","script","script-0",{"src":"/_next/static/chunks/2n5qeheznvl4u.js","async":true}]],["$","$Ld",null,{"children":["$","$e",null,{"name":"Next.MetadataOutlet","children":"$@f"}]}]]}],"p":"$@10","v":null,"s":"$6"}}]]
+7:[["children",{"s":"403","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}]}]]}],"p":"$@8","v":"$9","s":"$6"},"c":"$Qa"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/0b55-gtj0uckl.css","precedence":"next"}]],["$","html",null,{"lang":"vi","children":["$","body",null,{"children":["$","$L3",null,{"parallelRouterKey":"children","template":["$","$L4",null,{}],"notFound":[[["$","title",null,{"children":"404: This page could not be found."}],["$","div",null,{"style":{"fontFamily":"system-ui,\"Segoe UI\",Roboto,Helvetica,Arial,sans-serif,\"Apple Color Emoji\",\"Segoe UI Emoji\"","height":"100vh","textAlign":"center","display":"flex","flexDirection":"column","alignItems":"center","justifyContent":"center"},"children":["$","div",null,{"children":[["$","style",null,{"dangerouslySetInnerHTML":{"__html":"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}"}}],["$","h1",null,{"className":"next-error-h1","style":{"display":"inline-block","margin":"0 20px 0 0","padding":"0 23px 0 0","fontSize":24,"fontWeight":500,"verticalAlign":"top","lineHeight":"49px"},"children":404}],["$","div",null,{"style":{"display":"inline-block"},"children":["$","h2",null,{"style":{"fontSize":14,"fontWeight":400,"lineHeight":"49px","margin":0},"children":"This page could not be found."}]}]]}]}]],[]]}]}]}]]}],"p":"$@5","v":null,"s":"$6"},"c":"$Q7"},"h":{"r":["$","$1","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L14",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$e",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"403 — Không có quyền truy cập | Product Explorer"}],["$","meta","1",{"name":"description","content":"Khám phá hàng ngàn sản phẩm công nghệ hàng đầu: Laptop, Điện thoại, Tablet, Tai nghe và nhiều hơn nữa."}],["$","meta","2",{"name":"author","content":"Product Explorer Team"}],["$","meta","3",{"name":"keywords","content":"sản phẩm công nghệ,mua sắm online,laptop,điện thoại,tablet"}],["$","meta","4",{"name":"robots","content":"noindex, nofollow"}],["$","meta","5",{"property":"og:title","content":"403 — Không có quyền truy cập | Product Explorer"}],["$","meta","6",{"property":"og:description","content":"Khám phá hàng ngàn sản phẩm công nghệ hàng đầu: Laptop, Điện thoại, Tablet, Tai nghe và nhiều hơn nữa."}],["$","meta","7",{"property":"og:site_name","content":"Product Explorer"}],["$","meta","8",{"property":"og:locale","content":"vi_VN"}],["$","meta","9",{"property":"og:image","content":"http://localhost:3000/opengraph-image?8a26de3e11fc0d27"}],["$","meta","10",{"property":"og:image:type","content":"image/png"}],["$","meta","11",{"property":"og:image:width","content":"1200"}],["$","meta","12",{"property":"og:image:height","content":"630"}],["$","meta","13",{"property":"og:image:alt","content":"Product Explorer — Khám phá Sản phẩm Công nghệ"}],["$","meta","14",{"property":"og:type","content":"website"}],["$","meta","15",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","16",{"name":"twitter:title","content":"403 — Không có quyền truy cập | Product Explorer"}],["$","meta","17",{"name":"twitter:description","content":"Khám phá hàng ngàn sản phẩm công nghệ hàng đầu: Laptop, Điện thoại, Tablet, Tai nghe và nhiều hơn nữa."}],["$","meta","18",{"name":"twitter:image","content":"http://localhost:3000/opengraph-image?8a26de3e11fc0d27"}],["$","meta","19",{"name":"twitter:image:alt","content":"Product Explorer — Khám phá Sản phẩm Công nghệ"}],["$","meta","20",{"name":"twitter:image:type","content":"image/png"}],["$","meta","21",{"name":"twitter:image:width","content":"1200"}],["$","meta","22",{"name":"twitter:image:height","content":"630"}]]}]}],null]}],null]}],"p":"$@15","v":null,"s":"$6"}},"a":"$@16","u":"$@17","b":"vvwsVpCjDEQDcBJYZzXMc"}
+f:null
+6:300
+17:true
+6:C
+16:0
+8:"$undefined"
+5:"$undefined"
+15:"$undefined"
+10:"$undefined"

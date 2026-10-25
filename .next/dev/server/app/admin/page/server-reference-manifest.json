@@ -1,0 +1,15 @@
+{
+  "node": {
+    "4086958961f7d1c956010e8bdff58c630e958f9325": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": "[project]/.next-internal/server/app/admin/page/actions.js { ACTIONS_MODULE0 => \"[project]/src/lib/actions.ts [app-rsc] (ecmascript)\" } [app-rsc] (server actions loader, ecmascript)",
+          "async": false
+        }
+      },
+      "exportedName": "adminBroadcast",
+      "filename": "src/lib/actions.ts"
+    }
+  },
+  "edge": {}
+}

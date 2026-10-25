@@ -51,6 +51,7 @@ const CART_STORAGE_KEY = "shopping_app_cart_v1";
 const WISHLIST_STORAGE_KEY = "shopping_app_wishlist_v1";
 
 function loadFromStorage<T>(key: string, fallback: T): T {
+  if (typeof window === "undefined") return fallback;
   try {
     const raw = localStorage.getItem(key);
     if (!raw) return fallback;
@@ -226,7 +227,7 @@ export function ShopProvider({ children }: { children: ReactNode }) {
         return false;
       } else {
         setWishlist((prev) => [...prev, product]);
-        showToast(`Đã thêm "${product.name}" vào danh sách yêu thích ❤️`, "success");
+        showToast(`Đã thêm "${product.name}" vào danh sách yêu thích`, "success");
         return true;
       }
     },

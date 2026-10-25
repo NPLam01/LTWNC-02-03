@@ -63,7 +63,6 @@ export function CartDrawer() {
       >
         <div className="drawer-header">
           <div className="drawer-title-group">
-            <span className="drawer-header-icon">🛒</span>
             <h2>Giỏ hàng của bạn</h2>
             <span className="drawer-badge">{totalCartCount} sản phẩm</span>
           </div>
@@ -78,7 +77,6 @@ export function CartDrawer() {
 
         {checkoutSuccess ? (
           <div className="drawer-empty-state checkout-success-view">
-            <div className="empty-icon success-icon">🎉</div>
             <h3>Đặt hàng thành công!</h3>
             <p>
               Cảm ơn bạn đã mua hàng. Đơn hàng của bạn đang được chuẩn bị và sẽ
@@ -93,7 +91,6 @@ export function CartDrawer() {
           </div>
         ) : cart.length === 0 ? (
           <div className="drawer-empty-state">
-            <div className="empty-icon">🛍️</div>
             <h3>Giỏ hàng đang trống</h3>
             <p>Bạn chưa thêm sản phẩm nào. Hãy lựa chọn sản phẩm yêu thích nhé!</p>
             <button
@@ -235,7 +232,7 @@ export function CartDrawer() {
                   onClick={handleCheckout}
                   disabled={isCheckingOut}
                 >
-                  {isCheckingOut ? "Đang xử lý..." : "🛍️ Tiến hành thanh toán"}
+                  {isCheckingOut ? "Đang xử lý..." : "Tiến hành thanh toán"}
                 </button>
                 <button
                   className="drawer-clear-btn"

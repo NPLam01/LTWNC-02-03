@@ -40,12 +40,11 @@ export function ProductList({
   if (error) {
     return (
       <div className="product-list-error" role="alert">
-        <div className="error-icon">⚠️</div>
         <h3>Lỗi kết nối Mock API</h3>
         <p>{error}</p>
         {onRetry && (
           <button className="retry-btn" onClick={onRetry}>
-            🔄 Thử lại
+            Thử lại
           </button>
         )}
       </div>
@@ -55,7 +54,6 @@ export function ProductList({
   if (products.length === 0) {
     return (
       <div className="product-list-empty">
-        <div className="empty-icon">📦</div>
         <h3>Không tìm thấy sản phẩm</h3>
         <p>Thử thay đổi từ khóa hoặc bộ lọc danh mục</p>
       </div>

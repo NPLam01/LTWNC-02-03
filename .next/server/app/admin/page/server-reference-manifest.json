@@ -1,0 +1,15 @@
+{
+  "node": {
+    "407761b632736fc769fbe8557ebce38960f7fd0ec1": {
+      "workers": {
+        "app/admin/page": {
+          "moduleId": 34214,
+          "async": false
+        }
+      },
+      "exportedName": "adminBroadcast",
+      "filename": "src/lib/actions.ts"
+    }
+  },
+  "edge": {}
+}

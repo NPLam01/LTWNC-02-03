@@ -1,0 +1,38 @@
+{
+  "sorted_middleware": [],
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/node_modules_next_dist_14d2ydzx54z22._.js",
+        "server/edge/chunks/node_modules_@auth_core_1ci2d6z40uj_0._.js",
+        "server/edge/chunks/node_modules_jose_dist_webapi_0-3s2xt8yb6hf._.js",
+        "server/edge/chunks/node_modules_zod_v4_classic_19v77zriynqaj._.js",
+        "server/edge/chunks/node_modules_zod_v4_core_1frmn2plplx_m._.js",
+        "server/edge/chunks/node_modules_zod_v4_locales_1pt879k5z00wr._.js",
+        "server/edge/chunks/node_modules_0-hb3_gcp59jx._.js",
+        "server/edge/chunks/[root-of-the-server]__1zdnghdwycl_e._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0gyc3-sozeco1.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0gyc3-sozeco1.js",
+      "matchers": [
+        {
+          "regexp": "/:nextData(_next/data/[^/]{1,})?/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*){(\\.json|\\.rsc|\\.segments/.+\\.segment\\.rsc)}?",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "development",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "W81RRFEjWQQGJ6twTt30UZV8ite1IboyRh8biUNfHAU=",
+        "__NEXT_PREVIEW_MODE_ID": "41eda390ad45a777a52eab55db0c85bf",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "b17720324f6937773d18c2034d152449883c729d6d9f8a83f4f99cec369d2250",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "d8acb4f00f32aaeb29ba00925d9b6eaa036271b7e58029b9396b028c5971c30a"
+      }
+    }
+  },
+  "instrumentation": null,
+  "functions": {}
+}

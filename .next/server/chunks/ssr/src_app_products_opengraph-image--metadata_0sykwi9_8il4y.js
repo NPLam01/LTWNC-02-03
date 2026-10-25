@@ -1,0 +1,3 @@
+module.exports=[99979,a=>{"use strict";a.i(7997),a.i(99475);var b=a.i(52425);let c={alt:"Danh sách Sản phẩm Công nghệ — Product Explorer",contentType:"image/png",runtime:"edge",size:{width:1200,height:630}};async function d(a){let{__metadata_id__:d,...e}=await a.params,f=(0,b.fillMetadataSegment)("/products",e,"opengraph-image",!1);return[function(a){let b={alt:a.alt,type:a.contentType||"image/png",url:f+"?86a57e99b493108d"},{size:c}=a;return c&&(b.width=c.width,b.height=c.height),b}(c)]}a.s(["default",0,d],99979)},79416,function(a){a.n(a.i(99979))}];
+
+//# sourceMappingURL=src_app_products_opengraph-image--metadata_0sykwi9_8il4y.js.map

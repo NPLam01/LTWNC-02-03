@@ -1,0 +1,129 @@
+{
+  "version": 3,
+  "middleware": {
+    "/": {
+      "files": [
+        "server/edge/chunks/[root-of-the-server]__1osrt2u3yic3e._.js",
+        "server/edge/chunks/_0g6lmk1s3-gc6._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0-dfjd-pka1hw.js"
+      ],
+      "name": "middleware",
+      "page": "/",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0-dfjd-pka1hw.js",
+      "matchers": [
+        {
+          "regexp": "^(?:\\/(_next\\/data\\/[^/]{1,}))?(?:\\/((?!_next\\/static|_next\\/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*))(\\.json|\\.rsc|\\.segments\\/.+\\.segment\\.rsc)?[\\/#\\?]?$",
+          "originalSource": "/((?!_next/static|_next/image|favicon.ico|.*\\.(?:svg|png|jpg|jpeg|gif|webp)$).*)"
+        }
+      ],
+      "wasm": [],
+      "assets": [],
+      "env": {
+        "__NEXT_BUILD_ID": "vvwsVpCjDEQDcBJYZzXMc",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "pe8lFwTRhbXzO6V3joqYeAncts9SOxdf5WVhrskF05Y=",
+        "__NEXT_PREVIEW_MODE_ID": "0a0865290a12e1a2bd33dba2bd0ad6f1",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8ed1277f18c54d7cb69465974ea2380dd2cec88a064bf3878b857c116ca4d961",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "04f27336eff39faee6edcaf63a6e084f8b1fdafaf38f940c3db73b65e47ba973"
+      }
+    }
+  },
+  "sortedMiddleware": [
+    "/"
+  ],
+  "functions": {
+    "/opengraph-image/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/server-reference-manifest.js",
+        "server/app/opengraph-image/route_client-reference-manifest.js",
+        "server/edge/chunks/_next-internal_server_app_opengraph-image_route_actions_0as17awwxgyj-.js",
+        "server/edge/chunks/node_modules_next_dist_esm_build_templates_edge-wrapper_1m0xiklm2kli3.js",
+        "server/edge/chunks/[root-of-the-server]__11ldtezstivtu._.js",
+        "server/edge/chunks/[root-of-the-server]__0167nzzqnv55c._.js",
+        "server/edge/chunks/node_modules_next_dist_0f8-4kworj7l9._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0mx3g4rlapg_m.js"
+      ],
+      "name": "app/opengraph-image/route",
+      "page": "/opengraph-image/route",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_0mx3g4rlapg_m.js",
+      "matchers": [
+        {
+          "regexp": "^/opengraph-image(?:/)?$",
+          "originalSource": "/opengraph-image"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_10a187050363648b49a36c79d5266d2c",
+          "filePath": "server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_yoga_0athij3ijk6je.wasm"
+        },
+        {
+          "name": "wasm_f44326dff3d0cd7f857642d1f1155024",
+          "filePath": "server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_resvg_0athij3ijk6je.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf",
+          "filePath": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "vvwsVpCjDEQDcBJYZzXMc",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "pe8lFwTRhbXzO6V3joqYeAncts9SOxdf5WVhrskF05Y=",
+        "__NEXT_PREVIEW_MODE_ID": "0a0865290a12e1a2bd33dba2bd0ad6f1",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8ed1277f18c54d7cb69465974ea2380dd2cec88a064bf3878b857c116ca4d961",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "04f27336eff39faee6edcaf63a6e084f8b1fdafaf38f940c3db73b65e47ba973"
+      }
+    },
+    "/products/opengraph-image/route": {
+      "files": [
+        "server/middleware-build-manifest.js",
+        "server/interception-route-rewrite-manifest.js",
+        "required-server-files.js",
+        "server/server-reference-manifest.js",
+        "server/app/products/opengraph-image/route_client-reference-manifest.js",
+        "server/edge/chunks/_next-internal_server_app_products_opengraph-image_route_actions_1onc1tkhp-ain.js",
+        "server/edge/chunks/node_modules_next_dist_esm_build_templates_edge-wrapper_0lzzee335kydj.js",
+        "server/edge/chunks/[root-of-the-server]__1qch5lwcw-x8p._.js",
+        "server/edge/chunks/[root-of-the-server]__0167nzzqnv55c._.js",
+        "server/edge/chunks/node_modules_next_dist_0f8-4kworj7l9._.js",
+        "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1lcr_iypgd_xb.js"
+      ],
+      "name": "app/products/opengraph-image/route",
+      "page": "/products/opengraph-image/route",
+      "entrypoint": "server/edge/chunks/turbopack-node_modules_next_dist_esm_build_templates_edge-wrapper_1lcr_iypgd_xb.js",
+      "matchers": [
+        {
+          "regexp": "^/products/opengraph-image(?:/)?$",
+          "originalSource": "/products/opengraph-image"
+        }
+      ],
+      "wasm": [
+        {
+          "name": "wasm_10a187050363648b49a36c79d5266d2c",
+          "filePath": "server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_yoga_0athij3ijk6je.wasm"
+        },
+        {
+          "name": "wasm_f44326dff3d0cd7f857642d1f1155024",
+          "filePath": "server/edge/chunks/node_modules_next_dist_compiled_@vercel_og_resvg_0athij3ijk6je.wasm"
+        }
+      ],
+      "assets": [
+        {
+          "name": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf",
+          "filePath": "server/edge/assets/Geist-Regular.05-7db9wczy07.ttf"
+        }
+      ],
+      "env": {
+        "__NEXT_BUILD_ID": "vvwsVpCjDEQDcBJYZzXMc",
+        "NEXT_SERVER_ACTIONS_ENCRYPTION_KEY": "pe8lFwTRhbXzO6V3joqYeAncts9SOxdf5WVhrskF05Y=",
+        "__NEXT_PREVIEW_MODE_ID": "0a0865290a12e1a2bd33dba2bd0ad6f1",
+        "__NEXT_PREVIEW_MODE_ENCRYPTION_KEY": "8ed1277f18c54d7cb69465974ea2380dd2cec88a064bf3878b857c116ca4d961",
+        "__NEXT_PREVIEW_MODE_SIGNING_KEY": "04f27336eff39faee6edcaf63a6e084f8b1fdafaf38f940c3db73b65e47ba973"
+      }
+    }
+  }
+}

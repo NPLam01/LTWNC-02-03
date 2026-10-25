@@ -10,21 +10,21 @@
 }
 
 :root {
-  --bg-primary: #0a0a12;
-  --bg-secondary: #111120;
-  --bg-card: #16162a;
-  --bg-card-hover: #1e1e38;
-  --border-color: rgba(255, 255, 255, 0.07);
-  --border-hover: rgba(99, 102, 241, 0.4);
+  --bg-primary: #0f172a;
+  --bg-secondary: #1e293b;
+  --bg-card: #1e293b;
+  --bg-card-hover: #334155;
+  --border-color: #334155;
+  --border-hover: #2563eb;
 
-  --accent-primary: #6366f1;
-  --accent-secondary: #8b5cf6;
-  --accent-tertiary: #06b6d4;
-  --accent-glow: rgba(99, 102, 241, 0.25);
+  --accent-primary: #2563eb;
+  --accent-secondary: #1d4ed8;
+  --accent-tertiary: #0284c7;
+  --accent-glow: rgba(37, 99, 235, 0.2);
 
-  --text-primary: #f1f5f9;
+  --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
-  --text-muted: #475569;
+  --text-muted: #64748b;
 
   --color-warning: #f59e0b;
   --color-danger: #ef4444;
@@ -33,12 +33,12 @@
   --header-height: 72px;
   --sidebar-width: 0px;
   --content-max: 1440px;
-  --card-radius: 14px;
-  --border-radius: 10px;
+  --card-radius: 10px;
+  --border-radius: 8px;
 
-  --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.4);
-  --shadow-hover: 0 8px 40px rgba(99, 102, 241, 0.2);
-  --shadow-modal: 0 24px 80px rgba(0, 0, 0, 0.7);
+  --shadow-card: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --shadow-hover: 0 6px 20px rgba(0, 0, 0, 0.35);
+  --shadow-modal: 0 16px 48px rgba(0, 0, 0, 0.6);
 }
 
 html {
@@ -116,7 +116,7 @@ body {
   font-size: 22px;
   font-weight: 800;
   letter-spacing: -0.5px;
-  background: linear-gradient(135deg, #f1f5f9, var(--accent-primary));
+  background: transparent; color: var(--text-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -207,11 +207,11 @@ body {
 }
 
 .wishlist-badge {
-  background: linear-gradient(135deg, #ec4899, #f43f5e);
+  background: var(--accent-primary);
 }
 
 .cart-badge {
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
 }
 
 
@@ -394,7 +394,7 @@ body {
   position: relative;
   aspect-ratio: 4/3;
   overflow: hidden;
-  background: linear-gradient(135deg, var(--bg-secondary), var(--bg-card));
+  background: var(--bg-card);
 }
 
 .product-card-image {
@@ -577,7 +577,7 @@ body {
 
 .product-card-btn {
   padding: 6px 12px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: 8px;
   color: white;
@@ -643,7 +643,7 @@ body {
 
 .skeleton-image {
   aspect-ratio: 4/3;
-  background: linear-gradient(90deg, #16162a 25%, #242442 50%, #16162a 75%);
+  background: #1e293b;
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s infinite;
 }
@@ -659,7 +659,7 @@ body {
 .skeleton-line {
   height: 12px;
   border-radius: 4px;
-  background: linear-gradient(90deg, #16162a 25%, #242442 50%, #16162a 75%);
+  background: #1e293b;
   background-size: 200% 100%;
   animation: skeleton-shimmer 1.5s infinite;
 }
@@ -715,7 +715,7 @@ body {
 .retry-btn {
   margin-top: 10px;
   padding: 10px 20px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: var(--border-radius);
   color: white;
@@ -884,7 +884,7 @@ body {
 .modal-price {
   font-size: 28px;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--accent-tertiary), var(--accent-primary));
+  background: var(--accent-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -963,7 +963,7 @@ body {
 .btn-add-cart {
   flex: 1;
   padding: 12px 16px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: var(--border-radius);
   color: white;
@@ -1189,7 +1189,7 @@ body {
 
 .shipping-progress-fill {
   height: 100%;
-  background: linear-gradient(90deg, var(--accent-tertiary), var(--color-success));
+  background: var(--accent-primary);
   border-radius: 3px;
   transition: width 0.4s ease;
 }
@@ -1366,7 +1366,7 @@ body {
 .wishlist-add-all-btn {
   flex: 1;
   padding: 8px 12px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: 8px;
   color: white;
@@ -1437,7 +1437,7 @@ body {
 
 .wishlist-to-cart-btn {
   padding: 6px 12px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: 6px;
   color: white;
@@ -1491,7 +1491,7 @@ body {
 .drawer-cta-btn {
   margin-top: 12px;
   padding: 12px 24px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: var(--border-radius);
   color: white;
@@ -1562,7 +1562,7 @@ body {
 .drawer-total-price {
   font-size: 20px;
   font-weight: 800;
-  background: linear-gradient(135deg, var(--accent-tertiary), var(--accent-primary));
+  background: var(--accent-primary);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -1577,7 +1577,7 @@ body {
 .drawer-checkout-btn {
   flex: 1;
   padding: 14px;
-  background: linear-gradient(135deg, var(--accent-primary), var(--accent-secondary));
+  background: var(--accent-primary);
   border: none;
   border-radius: var(--border-radius);
   color: white;

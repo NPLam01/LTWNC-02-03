@@ -16,20 +16,7 @@ function formatPrice(price: number): string {
 }
 
 function renderStars(rating: number) {
-  const stars = [];
-  const full = Math.floor(rating);
-  const hasHalf = rating % 1 >= 0.5;
-
-  for (let i = 0; i < full; i++) {
-    stars.push(<span key={`f-${i}`} className="star full">★</span>);
-  }
-  if (hasHalf) {
-    stars.push(<span key="half" className="star half">★</span>);
-  }
-  for (let i = stars.length; i < 5; i++) {
-    stars.push(<span key={`e-${i}`} className="star empty">☆</span>);
-  }
-  return stars;
+  return <span className="modal-rating-score">{rating} / 5</span>;
 }
 
 export function ProductDetail({ product, onClose }: ProductDetailProps) {
@@ -167,15 +154,15 @@ export function ProductDetail({ product, onClose }: ProductDetailProps) {
                 disabled={product.stock <= 0}
               >
                 {product.stock <= 0
-                  ? "❌ Tạm hết hàng"
-                  : `🛒 Thêm vào giỏ hàng (${quantity})`}
+                  ? "Tạm hết hàng"
+                  : `Thêm vào giỏ hàng (${quantity})`}
               </button>
               <button
                 className={`btn-wishlist ${isLiked ? "active" : ""}`}
                 onClick={() => toggleWishlist(product)}
                 aria-label={isLiked ? "Bỏ yêu thích" : "Yêu thích"}
               >
-                {isLiked ? "❤️ Đã thích" : "♡ Yêu thích"}
+                {isLiked ? "Đã lưu" : "Lưu vào yêu thích"}
               </button>
             </div>
           </div>
